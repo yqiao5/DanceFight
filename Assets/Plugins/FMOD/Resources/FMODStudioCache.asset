@@ -1,5 +1,90 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8850820457001658307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: C:\Users\soapm\Documents\GitHub\DanceFight\Bounce_audio\Build\Desktop\Master
+    Bank.strings.bank
+  lastModified: 636910527957564453
+  LoadResult: 70
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-8303510451054650719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: Bounce_audio\Build\Desktop\Master Bank.strings.bank
+  lastModified: 636910527957564453
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 960
+  Exists: 1
+--- !u!114 &-7793504998376334636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/Warning
+  guid: ce12e3399172dc4f9c67148c1343716e
+  Banks:
+  - {fileID: 7759788767657565075}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 242
+--- !u!114 &-6500512791816779306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/Plunger_sound
+  guid: b02c9c91ede86f43bff0a90a98817ebd
+  Banks:
+  - {fileID: 7759788767657565075}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 8260250582893158340}
+  - {fileID: 1222417255452331238}
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 7375
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13,20 +98,20 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: 114280823133337620}
-  - {fileID: 114467945659397830}
-  - {fileID: 114229287534038556}
+  - {fileID: -8303510451054650719}
+  - {fileID: 7759788767657565075}
+  - {fileID: -8850820457001658307}
   EditorEvents:
-  - {fileID: 114200256256808216}
-  - {fileID: 114848764372217922}
-  - {fileID: 114389841552773524}
-  - {fileID: 114816005291434550}
+  - {fileID: 7178377341471691883}
+  - {fileID: -6500512791816779306}
+  - {fileID: -7793504998376334636}
+  - {fileID: 6519561661612783357}
   EditorParameters: []
   MasterBanks:
-  - {fileID: 114467945659397830}
+  - {fileID: 7759788767657565075}
   StringsBanks:
-  - {fileID: 114280823133337620}
-  stringsBankWriteTime: 636906735186115872
+  - {fileID: -8303510451054650719}
+  stringsBankWriteTime: 636910527957564453
   cacheVersion: 3
 --- !u!114 &114009120192090168
 MonoBehaviour:
@@ -935,6 +1020,122 @@ MonoBehaviour:
   Default: 0
   Exists: 0
 --- !u!114 &114960043425777532
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Length_1
+  Min: 2
+  Max: 22
+  Default: 2
+  Exists: 0
+--- !u!114 &1222417255452331238
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Length
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &3214597678938878699
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Length
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &6519561661612783357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/Bounce
+  guid: ee18b9057b106848a1017bc2f942a04a
+  Banks:
+  - {fileID: 7759788767657565075}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 210
+--- !u!114 &7178377341471691883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/BGM
+  guid: 90a3d2daec77824ba1682474826b6214
+  Banks:
+  - {fileID: 7759788767657565075}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 3214597678938878699}
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 24000
+--- !u!114 &7759788767657565075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: C:\Users\soapm\Documents\GitHub\DanceFight\Bounce_audio\Build\Desktop\Master
+    Bank.bank
+  lastModified: 636910527957493440
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &8260250582893158340
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

@@ -7,234 +7,26 @@
 [LOG] OutputWASAPI::init                       : Output buffer size: 4096 samples, latency: 0.00ms, period: 10.00ms, DSP buffer: 1024 * 4
 [LOG] Thread::initThread                       : Init FMOD stream thread. Priority: 2, Stack Size: 65536, Semaphore: No, Sleep Time: 10, Looping: Yes.
 [LOG] Thread::initThread                       : Init FMOD mixer thread. Priority: 3, Stack Size: 49152, Semaphore: No, Sleep Time: 0, Looping: Yes.
-[LOG] AsyncManager::init                       : manager 000000006997B068 isAsync 0 updatePeriod 0.02
+[LOG] AsyncManager::init                       : manager 0000017640E824F8 isAsync 0 updatePeriod 0.02
 [LOG] AsyncManager::init                       : done
 [LOG] PlaybackSystem::init                     : 
 [LOG] Thread::initThread                       : Init FMOD Studio sample load thread. Priority: 0, Stack Size: 65536, Semaphore: No, Sleep Time: 1, Looping: No.
 [LOG] PlaybackSystem::init                     : done
 [LOG] Thread::initThread                       : Init FMOD Studio bank load thread. Priority: 0, Stack Size: 65536, Semaphore: No, Sleep Time: 1, Looping: No.
 [LOG] Manager::init                            : done.
-[LOG] Manager::readBank                        : fileversion = 103, compatVersion = 99 (oldest = 44, newest = 119)
-[LOG] Manager::readBank                        : fileversion = 103, compatVersion = 99 (oldest = 44, newest = 119)
-[LOG] SystemI::createSound                     : filename = Bounce_audio\Build\Desktop/Master Bank.bank : mode 02010082
-[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] SystemI::createSound                     : setdata soundi = 000000005FF868D8 : node = 000000006931E460
-[LOG] SystemI::createSound                     : add node to async list : head = 00000000603ABAF8.  list count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000000005FF868D8
-[LOG] SystemI::createSoundInternal             :     Create name='Bounce_audio\Build\Desktop/Master Bank.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3733312
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 18880
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000000006931E570
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='384304__frankum__trought-the-beat-techno-house-track-loop-125bpm', format=2, channels=2, frequency=48000, lengthbytes=1744608, lengthpcm=6269184, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.763763.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000000005FF868D8
-[LOG] SoundI::getSubSound                      : sound 000000005FF868D8.  Subsound index 0 / 1
-[LOG] SoundI::release                          : 384304__frankum__trought-the-beat-techno-house-track-loop-125bpm (0000000013AE9D58)
-[LOG] SoundI::release                          :     384304__frankum__trought-the-beat-techno-house-track-loop-125bpm (00000000603AC848)
-[LOG] SoundI::release                          :     384304__frankum__trought-the-beat-techno-house-track-loop-125bpm (0000000013AE99F8)
-[LOG] Manager::readBank                        : fileversion = 103, compatVersion = 99 (oldest = 44, newest = 119)
-[LOG] Manager::readBank                        : fileversion = 103, compatVersion = 99 (oldest = 44, newest = 119)
-[LOG] SystemI::createSound                     : filename = Bounce_audio\Build\Desktop/Master Bank.bank : mode 02010082
-[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] SystemI::createSound                     : setdata soundi = 0000000083394E78 : node = 000000006931FEA0
-[LOG] SystemI::createSound                     : add node to async list : head = 00000000603ABAF8.  list count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000000083394E78
-[LOG] SystemI::createSoundInternal             :     Create name='Bounce_audio\Build\Desktop/Master Bank.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3733312
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 18880
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000000006931FFB0
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='384304__frankum__trought-the-beat-techno-house-track-loop-125bpm', format=2, channels=2, frequency=48000, lengthbytes=1744608, lengthpcm=6269184, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.763763.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000000083394E78
-[LOG] SoundI::getSubSound                      : sound 0000000083394E78.  Subsound index 0 / 1
-[LOG] SoundI::release                          : 384304__frankum__trought-the-beat-techno-house-track-loop-125bpm (000000005FF868D8)
-[LOG] SoundI::release                          :     384304__frankum__trought-the-beat-techno-house-track-loop-125bpm (000000007727D158)
-[LOG] SoundI::release                          :     384304__frankum__trought-the-beat-techno-house-track-loop-125bpm (00000000833951D8)
-[LOG] Manager::readBank                        : fileversion = 103, compatVersion = 99 (oldest = 44, newest = 119)
-[LOG] Manager::readBank                        : fileversion = 103, compatVersion = 99 (oldest = 44, newest = 119)
-[LOG] SystemI::createSound                     : filename = Bounce_audio\Build\Desktop/Master Bank.bank : mode 02010082
-[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] SystemI::createSound                     : setdata soundi = 0000000083394458 : node = 000000006931E460
-[LOG] SystemI::createSound                     : add node to async list : head = 00000000603ABAF8.  list count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000000083394458
-[LOG] SystemI::createSoundInternal             :     Create name='Bounce_audio\Build\Desktop/Master Bank.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3733312
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 18880
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000000006931E570
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='384304__frankum__trought-the-beat-techno-house-track-loop-125bpm', format=2, channels=2, frequency=48000, lengthbytes=1744608, lengthpcm=6269184, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.763763.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000000083394458
-[LOG] SoundI::getSubSound                      : sound 0000000083394458.  Subsound index 0 / 1
-[LOG] SoundI::release                          : 384304__frankum__trought-the-beat-techno-house-track-loop-125bpm (0000000083394E78)
-[LOG] SoundI::release                          :     384304__frankum__trought-the-beat-techno-house-track-loop-125bpm (000000007727DE58)
-[LOG] SoundI::release                          :     384304__frankum__trought-the-beat-techno-house-track-loop-125bpm (0000000083395028)
-[LOG] Manager::readBank                        : fileversion = 103, compatVersion = 99 (oldest = 44, newest = 119)
-[LOG] Manager::readBank                        : fileversion = 103, compatVersion = 99 (oldest = 44, newest = 119)
-[LOG] SystemI::createSound                     : filename = Bounce_audio\Build\Desktop/Master Bank.bank : mode 02010082
-[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] SystemI::createSound                     : setdata soundi = 00000000833940F8 : node = 000000006931E5A0
-[LOG] SystemI::createSound                     : add node to async list : head = 00000000603ABAF8.  list count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000000833940F8
-[LOG] SystemI::createSoundInternal             :     Create name='Bounce_audio\Build\Desktop/Master Bank.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3733312
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 18880
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000000006931E6B0
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='384304__frankum__trought-the-beat-techno-house-track-loop-125bpm', format=2, channels=2, frequency=48000, lengthbytes=1744608, lengthpcm=6269184, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.763763.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000000833940F8
-[LOG] SoundI::getSubSound                      : sound 00000000833940F8.  Subsound index 0 / 1
-[LOG] SoundI::release                          : 384304__frankum__trought-the-beat-techno-house-track-loop-125bpm (0000000083394458)
-[LOG] SoundI::release                          :     384304__frankum__trought-the-beat-techno-house-track-loop-125bpm (000000007727EB58)
-[LOG] SoundI::release                          :     384304__frankum__trought-the-beat-techno-house-track-loop-125bpm (00000000833951D8)
-[LOG] Manager::readBank                        : fileversion = 103, compatVersion = 99 (oldest = 44, newest = 119)
-[LOG] SystemI::createSound                     : filename = Bounce_audio\Build\Desktop/Master Bank.bank : mode 02010082
-[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] SystemI::createSound                     : setdata soundi = 00000000833951D8 : node = 000000006931E460
-[LOG] SystemI::createSound                     : add node to async list : head = 00000000603ABAF8.  list count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000000833951D8
-[LOG] SystemI::createSoundInternal             :     Create name='Bounce_audio\Build\Desktop/Master Bank.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3733312
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 18880
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000000006931E570
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='384304__frankum__trought-the-beat-techno-house-track-loop-125bpm', format=2, channels=2, frequency=48000, lengthbytes=1744608, lengthpcm=6269184, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.763763.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000000833951D8
-[LOG] SoundI::getSubSound                      : sound 00000000833951D8.  Subsound index 0 / 1
-[LOG] SoundI::release                          : 384304__frankum__trought-the-beat-techno-house-track-loop-125bpm (00000000833940F8)
-[LOG] SoundI::release                          :     384304__frankum__trought-the-beat-techno-house-track-loop-125bpm (000000007727DFF8)
-[LOG] SoundI::release                          :     384304__frankum__trought-the-beat-techno-house-track-loop-125bpm (0000000083394E78)
-[LOG] Manager::readBank                        : fileversion = 103, compatVersion = 99 (oldest = 44, newest = 119)
-[LOG] Manager::readBank                        : fileversion = 103, compatVersion = 99 (oldest = 44, newest = 119)
-[LOG] SystemI::createSound                     : filename = Bounce_audio\Build\Desktop/Master Bank.bank : mode 02010082
-[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] SystemI::createSound                     : setdata soundi = 0000000083394608 : node = 000000006931E820
-[LOG] SystemI::createSound                     : add node to async list : head = 00000000603ABAF8.  list count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000000083394608
-[LOG] SystemI::createSoundInternal             :     Create name='Bounce_audio\Build\Desktop/Master Bank.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3733312
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 18880
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000000006931E930
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='384304__frankum__trought-the-beat-techno-house-track-loop-125bpm', format=2, channels=2, frequency=48000, lengthbytes=1744608, lengthpcm=6269184, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.763763.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000000083394608
-[LOG] SoundI::getSubSound                      : sound 0000000083394608.  Subsound index 0 / 1
-[LOG] SoundI::release                          : 384304__frankum__trought-the-beat-techno-house-track-loop-125bpm (00000000833951D8)
-[LOG] SoundI::release                          :     384304__frankum__trought-the-beat-techno-house-track-loop-125bpm (000000007727E678)
-[LOG] SoundI::release                          :     384304__frankum__trought-the-beat-techno-house-track-loop-125bpm (0000000083394458)
-[LOG] Manager::readBank                        : fileversion = 103, compatVersion = 99 (oldest = 44, newest = 119)
-[LOG] Manager::readBank                        : fileversion = 103, compatVersion = 99 (oldest = 44, newest = 119)
-[LOG] SystemI::createSound                     : filename = Bounce_audio\Build\Desktop/Master Bank.bank : mode 02010082
-[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] SystemI::createSound                     : setdata soundi = 00000000833942A8 : node = 000000006931F860
-[LOG] SystemI::createSound                     : add node to async list : head = 00000000603ABAF8.  list count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000000833942A8
-[LOG] SystemI::createSoundInternal             :     Create name='Bounce_audio\Build\Desktop/Master Bank.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3733312
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 18880
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000000006931F970
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='384304__frankum__trought-the-beat-techno-house-track-loop-125bpm', format=2, channels=2, frequency=48000, lengthbytes=1744608, lengthpcm=6269184, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.763763.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000000833942A8
-[LOG] SoundI::getSubSound                      : sound 00000000833942A8.  Subsound index 0 / 1
-[LOG] SoundI::release                          : 384304__frankum__trought-the-beat-techno-house-track-loop-125bpm (0000000083394608)
-[LOG] SoundI::release                          :     384304__frankum__trought-the-beat-techno-house-track-loop-125bpm (000000007727CE18)
-[LOG] SoundI::release                          :     384304__frankum__trought-the-beat-techno-house-track-loop-125bpm (00000000833956E8)
-[LOG] Manager::readBank                        : fileversion = 103, compatVersion = 99 (oldest = 44, newest = 119)
-[LOG] Manager::readBank                        : fileversion = 103, compatVersion = 99 (oldest = 44, newest = 119)
-[LOG] SystemI::createSound                     : filename = Bounce_audio\Build\Desktop/Master Bank.bank : mode 02010082
-[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] SystemI::createSound                     : setdata soundi = 0000000083394B18 : node = 000000006931E460
-[LOG] SystemI::createSound                     : add node to async list : head = 00000000603ABAF8.  list count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000000083394B18
-[LOG] SystemI::createSoundInternal             :     Create name='Bounce_audio\Build\Desktop/Master Bank.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3733312
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 18880
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000000006931E570
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='384304__frankum__trought-the-beat-techno-house-track-loop-125bpm', format=2, channels=2, frequency=48000, lengthbytes=1744608, lengthpcm=6269184, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.763763.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000000083394B18
-[LOG] SoundI::getSubSound                      : sound 0000000083394B18.  Subsound index 0 / 1
-[LOG] SoundI::release                          : 384304__frankum__trought-the-beat-techno-house-track-loop-125bpm (00000000833942A8)
-[LOG] SoundI::release                          :     384304__frankum__trought-the-beat-techno-house-track-loop-125bpm (000000007727CAD8)
-[LOG] SoundI::release                          :     384304__frankum__trought-the-beat-techno-house-track-loop-125bpm (0000000083395028)
-[LOG] Manager::readBank                        : fileversion = 103, compatVersion = 99 (oldest = 44, newest = 119)
-[LOG] Manager::readBank                        : fileversion = 103, compatVersion = 99 (oldest = 44, newest = 119)
-[LOG] SystemI::createSound                     : filename = Bounce_audio\Build\Desktop/Master Bank.bank : mode 02010082
-[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] SystemI::createSound                     : setdata soundi = 0000000083393A38 : node = 000000006931F9A0
-[LOG] SystemI::createSound                     : add node to async list : head = 00000000603ABAF8.  list count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000000083393A38
-[LOG] SystemI::createSoundInternal             :     Create name='Bounce_audio\Build\Desktop/Master Bank.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3733312
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 18880
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000000006931FAB0
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='384304__frankum__trought-the-beat-techno-house-track-loop-125bpm', format=2, channels=2, frequency=48000, lengthbytes=1744608, lengthpcm=6269184, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.763763.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000000083393A38
-[LOG] SoundI::getSubSound                      : sound 0000000083393A38.  Subsound index 0 / 1
-[LOG] SoundI::release                          : 384304__frankum__trought-the-beat-techno-house-track-loop-125bpm (0000000083394B18)
-[LOG] SoundI::release                          :     384304__frankum__trought-the-beat-techno-house-track-loop-125bpm (000000007727C2B8)
-[LOG] SoundI::release                          :     384304__frankum__trought-the-beat-techno-house-track-loop-125bpm (0000000083394CC8)
-[LOG] Manager::readBank                        : fileversion = 103, compatVersion = 99 (oldest = 44, newest = 119)
-[LOG] SystemI::createSound                     : filename = Bounce_audio\Build\Desktop/Master Bank.bank : mode 02010082
-[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] SystemI::createSound                     : setdata soundi = 0000000083393D98 : node = 000000006931EE60
-[LOG] SystemI::createSound                     : add node to async list : head = 00000000603ABAF8.  list count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000000083393D98
-[LOG] SystemI::createSoundInternal             :     Create name='Bounce_audio\Build\Desktop/Master Bank.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3733312
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 18880
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000000006931EF70
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='384304__frankum__trought-the-beat-techno-house-track-loop-125bpm', format=2, channels=2, frequency=48000, lengthbytes=1744608, lengthpcm=6269184, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.763763.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000000083393D98
-[LOG] SoundI::getSubSound                      : sound 0000000083393D98.  Subsound index 0 / 1
-[LOG] SoundI::release                          : 384304__frankum__trought-the-beat-techno-house-track-loop-125bpm (0000000083393A38)
-[LOG] SoundI::release                          :     384304__frankum__trought-the-beat-techno-house-track-loop-125bpm (000000007727C118)
-[LOG] SoundI::release                          :     384304__frankum__trought-the-beat-techno-house-track-loop-125bpm (00000000833951D8)
-[LOG] SoundI::release                          : 384304__frankum__trought-the-beat-techno-house-track-loop-125bpm (0000000083393D98)
-[LOG] SoundI::release                          :     384304__frankum__trought-the-beat-techno-house-track-loop-125bpm (000000007727ECF8)
-[LOG] SoundI::release                          :     384304__frankum__trought-the-beat-techno-house-track-loop-125bpm (0000000083393BE8)
+[LOG] Manager::readBank                        : fileversion = 119, compatVersion = 119 (oldest = 44, newest = 119)
+[LOG] Manager::readBank                        : fileversion = 119, compatVersion = 119 (oldest = 44, newest = 119)
+[LOG] Manager::readBank                        : fileversion = 119, compatVersion = 119 (oldest = 44, newest = 119)
+[LOG] Manager::readBank                        : fileversion = 119, compatVersion = 119 (oldest = 44, newest = 119)
+[LOG] Manager::readBank                        : fileversion = 119, compatVersion = 119 (oldest = 44, newest = 119)
+[LOG] Manager::readBank                        : fileversion = 119, compatVersion = 119 (oldest = 44, newest = 119)
+[LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 6
+[LOG] Manager::readBank                        : fileversion = 119, compatVersion = 119 (oldest = 44, newest = 119)
+[LOG] Manager::finishLoadBank                  : Bank with guid {98c6205b-7bbd-0093-118b-ff2122503ffd} has already been loaded
+[LOG] Manager::readBank                        : fileversion = 119, compatVersion = 119 (oldest = 44, newest = 119)
+[LOG] Manager::finishLoadBank                  : Bank with guid {98c6205b-7bbd-0093-118b-ff2122503ffd} has already been loaded
+[LOG] Manager::readBank                        : fileversion = 119, compatVersion = 119 (oldest = 44, newest = 119)
+[LOG] Manager::readBank                        : fileversion = 119, compatVersion = 119 (oldest = 44, newest = 119)
 [LOG] Thread::callback                         : FMOD Studio update thread finished.
 [LOG] Thread::callback                         : FMOD Studio bank load thread finished.
 [LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
@@ -245,25 +37,10 @@
 [LOG] Thread::callback                         : FMOD mixer thread finished.
 [LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
 [LOG] SystemI::close                           : Closed.
-[LOG] Manager::readBank                        : fileversion = 103, compatVersion = 99 (oldest = 44, newest = 119)
-[LOG] Manager::readBank                        : fileversion = 103, compatVersion = 99 (oldest = 44, newest = 119)
-[LOG] Manager::readBank                        : fileversion = 103, compatVersion = 99 (oldest = 44, newest = 119)
-[LOG] Manager::readBank                        : fileversion = 103, compatVersion = 99 (oldest = 44, newest = 119)
-[LOG] Manager::readBank                        : fileversion = 103, compatVersion = 99 (oldest = 44, newest = 119)
-[LOG] Manager::readBank                        : fileversion = 103, compatVersion = 99 (oldest = 44, newest = 119)
-[LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 6
-[LOG] Manager::readBank                        : fileversion = 103, compatVersion = 99 (oldest = 44, newest = 119)
-[LOG] Manager::finishLoadBank                  : Bank with guid {98c6205b-7bbd-0093-118b-ff2122503ffd} has already been loaded
-[LOG] Manager::readBank                        : fileversion = 103, compatVersion = 99 (oldest = 44, newest = 119)
-[LOG] Manager::finishLoadBank                  : Bank with guid {98c6205b-7bbd-0093-118b-ff2122503ffd} has already been loaded
-[LOG] Manager::readBank                        : fileversion = 103, compatVersion = 99 (oldest = 44, newest = 119)
-[LOG] Manager::readBank                        : fileversion = 103, compatVersion = 99 (oldest = 44, newest = 119)
 [LOG] Thread::callback                         : FMOD Studio bank load thread finished.
 [LOG] Thread::callback                         : FMOD Studio sample load thread finished.
 [LOG] LiveUpdate::release                      : 
 [LOG] LiveUpdate::reset                        : Reset connection (reason Disconnected)
 [LOG] Thread::callback                         : FMOD stream thread finished.
 [LOG] Thread::callback                         : FMOD mixer thread finished.
-[LOG] Thread::callback                         : FMOD nonblocking thread (0) finished.
-[LOG] Thread::callback                         : FMOD file thread finished.
 [LOG] SystemI::close                           : Closed.
