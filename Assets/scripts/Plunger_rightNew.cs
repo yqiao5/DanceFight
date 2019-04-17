@@ -99,6 +99,7 @@ public class Plunger_rightNew : MonoBehaviour
             // Debug.Log(height);
             AttackWin.SetActive(true);
             GameObject.Find("Timer").SendMessage("endTimer");
+            FindObjectOfType<GameManager>().EndGame();
         }
 
         //if (Input.GetButton("DDRRight"))
@@ -130,11 +131,12 @@ public class Plunger_rightNew : MonoBehaviour
         {
             Debug.Log("countdownend,gameover");
             AttackWin.SetActive(true);
-
+            FindObjectOfType<GameManager>().EndGame();
         }
         else
         {
             DefendWin.SetActive(true);
+            FindObjectOfType<GameManager>().EndGame();
         }
     }
 }

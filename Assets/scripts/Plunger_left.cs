@@ -84,6 +84,7 @@ public class Plunger_left : MonoBehaviour
             Debug.Log(height);
             AttackWin.SetActive(true);
             GameObject.Find("Timer").SendMessage("endTimer");
+            FindObjectOfType<GameManager>().EndGame();
         }
 
         BGM.setParameterByName("Length", height * 0.05f);
@@ -111,10 +112,12 @@ public class Plunger_left : MonoBehaviour
         {
             Debug.Log("countdownend,gameover");
             AttackWin.SetActive(true);
+            FindObjectOfType<GameManager>().EndGame();
 
         } else
         {
             DefendWin.SetActive(true);
+            FindObjectOfType<GameManager>().EndGame();
         }
     }
 
