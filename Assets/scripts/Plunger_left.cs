@@ -26,7 +26,12 @@ public class Plunger_left : MonoBehaviour
         color.b = 0.016f;
         color.a = 1f;
     }
-        
+
+    private void Awake()
+    {
+        BGM = FMODUnity.RuntimeManager.CreateInstance("event:/BGM");
+    }
+
     void Start()
     {
         
@@ -36,7 +41,7 @@ public class Plunger_left : MonoBehaviour
         rend = GetComponent<Renderer>();
         rend.material.color = color;
         //rend.material.shader = Shader.Find("_Color");
-        BGM = FMODUnity.RuntimeManager.CreateInstance("event:/BGM");
+        FMODUnity.RuntimeManager.AttachInstanceToGameObject(BGM, this.transform, this.GetComponent<Rigidbody>());
         BGM.start();
         
 

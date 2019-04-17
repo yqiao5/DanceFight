@@ -14,7 +14,15 @@ public class RightSpring : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetButtonDown("DDR2Right"))
+        //if (Input.GetButtonDown("DDR2Right"))
+        //{
+        //    animBounce.SetBool("IsBounce", true);
+
+
+
+        //}
+
+        if (Input.GetKeyDown(KeyCode.RightArrow))
         {
             animBounce.SetBool("IsBounce", true);
 
@@ -22,10 +30,21 @@ public class RightSpring : MonoBehaviour
 
         }
 
-        if (Input.GetButtonUp("DDR2Right"))
+
+        //if (Input.GetButtonUp("DDR2Right"))
+        //{
+        //    animBounce.SetBool("IsBounce", false);
+
+        //}
+
+        if (Input.GetKeyUp(KeyCode.RightArrow))
         {
             animBounce.SetBool("IsBounce", false);
 
+
+
         }
+
+
     }
 }

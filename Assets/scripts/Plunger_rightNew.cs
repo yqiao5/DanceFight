@@ -56,16 +56,20 @@ public class Plunger_rightNew : MonoBehaviour
             AnimDuck.SetBool("IsDuck", true);
             downTime = Time.time;
             pressTime = downTime + countdown;
-            //warningTime = downTime + countdown-1.0f;
+            warningTime = downTime + countdown-1.0f;
             //plunger_right.transform.localScale = new Vector3(0f, 0f, 0f);
             release = true;
+           
+        }
+
+        if (Time.time >= warningTime && release == true)
+        {
             StartCoroutine(ActiveWarning());
         }
 
-
         IEnumerator ActiveWarning()
         {
-           yield return new WaitForSeconds(1);
+           yield return new WaitForSeconds(0.5f);
            WarningLight.SetActive(true);
             
 

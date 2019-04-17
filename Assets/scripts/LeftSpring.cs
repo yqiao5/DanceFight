@@ -16,7 +16,15 @@ public class LeftSpring : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetButtonDown("DDR2Left"))
+        //if (Input.GetButtonDown("DDR2Left"))
+        //{
+        //    //Debug.Log("DDR2Left");
+        //    animBounce.SetBool("IsBounce", true);
+
+
+        //}
+
+        if (Input.GetKeyDown(KeyCode.LeftArrow))
         {
             //Debug.Log("DDR2Left");
             animBounce.SetBool("IsBounce", true);
@@ -24,11 +32,19 @@ public class LeftSpring : MonoBehaviour
 
         }
 
-        if (Input.GetButtonUp("DDR2Left"))
+        //if (Input.GetButtonUp("DDR2Left"))
+        //{
+        //    animBounce.SetBool("IsBounce", false);
+
+        //}
+        if (Input.GetKeyUp(KeyCode.LeftArrow))
         {
+            //Debug.Log("DDR2Left");
             animBounce.SetBool("IsBounce", false);
 
+
         }
+
     }
 
 

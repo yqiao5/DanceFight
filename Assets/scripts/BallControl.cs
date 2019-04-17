@@ -6,6 +6,7 @@ public class BallControl : MonoBehaviour
 {
     private Rigidbody rb;
     public int speed;
+    public Transform sparkle;
 
     void GoBall()
     {
@@ -25,6 +26,8 @@ public class BallControl : MonoBehaviour
     {
         rb = GetComponent<Rigidbody>();
         Invoke("GoBall", 0);
+
+        sparkle.GetComponent<ParticleSystem>().enableEmission = false;
     }
 
     void ResetBall()
@@ -61,7 +64,8 @@ public class BallControl : MonoBehaviour
         if (collisionInfo.collider.tag == "Block")
         {
             FMODUnity.RuntimeManager.PlayOneShot("event:/Warning", GetComponent<Transform>().position);
-
+            sparkle.GetComponent<ParticleSystem>().enableEmission = true;
+            StartCoroutine(stopSparkles());
         }
 
 
@@ -81,10 +85,11 @@ public class BallControl : MonoBehaviour
         if (collisionInfo.collider.tag == "SpringLeft")
         {
             rb.velocity = new Vector3(Random.Range(11.0f,18.0f), 0, 60);
-        
-          
-           
-            
+
+  
+
+
+
             FMODUnity.RuntimeManager.PlayOneShot("event:/Bounce", GetComponent<Transform>().position);
             
         }
@@ -100,6 +105,12 @@ public class BallControl : MonoBehaviour
         }
 
 
+    }
+
+    IEnumerator stopSparkles()
+    {
+        yield return new WaitForSeconds(.4f);
+        sparkle.GetComponent<ParticleSystem>().enableEmission = false;
     }
 
   
