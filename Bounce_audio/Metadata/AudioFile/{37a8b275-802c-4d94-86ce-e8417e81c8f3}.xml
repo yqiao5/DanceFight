@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="AudioFile" id="{37a8b275-802c-4d94-86ce-e8417e81c8f3}">
+        <property name="assetPath">
+            <value>316835__lalks__alarm-01-long.wav</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>1.7187528344671201</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{39879f30-7653-410f-a684-70fe7ccffb0d}</destination>
+        </relationship>
+    </object>
+</objects>

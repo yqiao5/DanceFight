@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="AudioFile" id="{a9ed261d-c8e0-47d8-895f-e13586a81c00}">
+        <property name="assetPath">
+            <value>384304__frankum__trought-the-beat-techno-house-track-loop-125bpm.mp3</value>
+        </property>
+        <property name="isStreaming">
+            <value>true</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>48</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>130.608</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{39879f30-7653-410f-a684-70fe7ccffb0d}</destination>
+        </relationship>
+    </object>
+</objects>
