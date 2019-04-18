@@ -59,13 +59,13 @@ public class Plunger_rightNew : MonoBehaviour
             warningTime = downTime + countdown-1.0f;
             //plunger_right.transform.localScale = new Vector3(0f, 0f, 0f);
             release = true;
-           
+            StartCoroutine(ActiveWarning());
+
         }
 
-        if (Time.time >= warningTime && release == true)
-        {
-            StartCoroutine(ActiveWarning());
-        }
+
+         
+        
 
         IEnumerator ActiveWarning()
         {

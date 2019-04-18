@@ -1586,6 +1586,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb2e9c259b9d5ca4da4da7eee3cbd5d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  downTime: 0
+  pressTime: 0
+  countdown: 0.7
+  release: 0
   duck: {fileID: 2123133399}
 --- !u!65 &785630259
 BoxCollider:
@@ -1965,6 +1969,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5134ee980c5446243ac99902eb17bf08, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  downTime: 0
+  pressTime: 0
+  countdown: 0.7
+  release: 0
 --- !u!95 &899405598
 Animator:
   serializedVersion: 3

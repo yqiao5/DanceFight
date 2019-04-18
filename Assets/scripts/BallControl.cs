@@ -109,7 +109,7 @@ public class BallControl : MonoBehaviour
 
     IEnumerator stopSparkles()
     {
-        yield return new WaitForSeconds(.4f);
+        yield return new WaitForSeconds(.3f);
         sparkle.GetComponent<ParticleSystem>().enableEmission = false;
     }
 
